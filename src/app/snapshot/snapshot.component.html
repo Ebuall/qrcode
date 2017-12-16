@@ -1,0 +1,10 @@
+<div id="snapshotLimitOverlay" #overlay>
+  <div id="about" *ngIf="!videoWorks">
+      <h4>QR Code Scanner</h4>
+      <p>
+          This is a lightweight progressive web app for scanning QR Codes offline.<br />
+          You'll need at least a camera and a compatible browser.<br />
+      </p>
+  </div>
+</div>
+<canvas id="snapshot" #canvas></canvas>

@@ -1,0 +1,9 @@
+<mat-progress-bar mode="indeterminate" *ngIf="!stateService.paused$.value"></mat-progress-bar>
+<app-camera-view></app-camera-view>
+<app-snapshot></app-snapshot>
+<button mat-raised-button
+  id="flipCamera"
+  *ngIf="stateService.deviceId$.value['@typed/Just']"
+  (click)="flipCamera()"
+  >Flip camera
+</button>

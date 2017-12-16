@@ -1,0 +1,6 @@
+{
+  "name": "pwa-qr",
+  "dependencies": {
+    "jsqrcode": "https://github.com/LazarSoft/jsqrcode.git"
+  }
+}

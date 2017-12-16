@@ -1,0 +1,20 @@
+<h4 mat-dialog-title>Your text</h4>
+<div mat-dialog-content>
+    <p id="resultsContainer">
+        <span id="result">{{data.content}}</span>
+    </p>
+    <p>
+        <button class="copy" mat-raised-button data-clipboard-target="#result">Copy</button>
+        <a href="{{data.url}}" class="search" mat-raised-button>{{isUrl() ? 'Go' : 'Search'}}</a>
+    </p>
+</div>
+<div mat-dialog-actions>
+    <button
+        class="continue"
+        mat-raised-button
+        color="primary"
+        (click)="continue()"
+        >Continue
+    </button>
+</div>
+<a  *ngIf="isUrl()" href="{{data.url}}">{{data.content}}</a>
