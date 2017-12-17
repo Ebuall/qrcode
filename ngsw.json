@@ -1,0 +1,57 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/inline.777c472d03c6f8962993.bundle.js",
+        "/main.6a8e1618d574f7aa9edc.bundle.js",
+        "/polyfills.a9f2efb3681277bddf94.bundle.js",
+        "/styles.62ef206a4c47ba60c3e1.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/qrcode_worker.js",
+        "/assets/images/icons/android-chrome-192x192.png",
+        "/assets/images/icons/android-chrome-256x256.png",
+        "/assets/images/icons/apple-touch-icon.png",
+        "/assets/images/icons/browserconfig.xml",
+        "/assets/images/icons/favicon-16x16.png",
+        "/assets/images/icons/favicon-32x32.png",
+        "/assets/images/icons/favicon.ico",
+        "/assets/images/icons/mstile-150x150.png",
+        "/assets/images/icons/safari-pinned-tab.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/inline.777c472d03c6f8962993.bundle.js": "6cbf59b3a7bca0b25edd697c205156b9ac3c5854",
+    "/assets/qrcode_worker.js": "9356377ea22a974baae05c857b5f92e9e79f539d",
+    "/main.6a8e1618d574f7aa9edc.bundle.js": "7ce4565baef1b2c87231db0c0dd7e2d1dd2945bc",
+    "/assets/images/icons/android-chrome-192x192.png": "a77c8f1f7733e51416772b20c92601c17b7fb8e9",
+    "/polyfills.a9f2efb3681277bddf94.bundle.js": "f2f727717c566acb60d60a1b00806b446847b85b",
+    "/assets/images/icons/android-chrome-256x256.png": "44144b1bce5a63b99751bb4e72f81955c1e54cdb",
+    "/styles.62ef206a4c47ba60c3e1.bundle.css": "6c6507a43b79d2597328c93807f84ac8df1569fa",
+    "/assets/images/icons/apple-touch-icon.png": "5a243cffb79b7c919f604db81b674db8310a3baf",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/assets/images/icons/browserconfig.xml": "b32e0380b3e3fa105f621f3076f7240089d2428c",
+    "/index.html": "2658b28c8f04fedfc2780201d83e340dfe73e845",
+    "/assets/images/icons/favicon-16x16.png": "e8066904af8ffb86a043bcc7c20b272735451bff",
+    "/assets/images/icons/favicon-32x32.png": "67b0d2c626adc9b6e8728a42dba8ae395fec4d2a",
+    "/assets/images/icons/favicon.ico": "7e648a75376542d56b9f927a0e8e3081df16f0db",
+    "/assets/images/icons/mstile-150x150.png": "a58002244e9aede81b04c726e8515807c0244fd5",
+    "/assets/images/icons/safari-pinned-tab.svg": "0d1650663d504425c798b8a8296f7488b6db4294"
+  }
+}
